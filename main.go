@@ -40,8 +40,8 @@ func _main() (int, error) {
 
 	shuffle(list)
 
-	for i, text := range list {
-		fmt.Printf("%2d : %s\n", i+1, text)
+	for _, text := range list {
+		fmt.Println(text)
 	}
 
 	return 0, nil
