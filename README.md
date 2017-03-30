@@ -1,5 +1,7 @@
 # shuffle
 
+shuffle randomly shuffles each line of the input text and displays it.
+
 ## Install
 
 ```
